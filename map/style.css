@@ -1,0 +1,76 @@
+#controls-div {
+	font-size: 1.4em;
+}
+
+form#redist_search {
+	float: left;
+	margin-right: 20px;
+}
+
+#legend {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.wax-tooltip {
+	position:absolute;
+	right:10px;
+	top:10px;
+	padding:10px;
+	background-color:#ddd;
+	opacity:0.8;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 30%;
+}
+
+#tooltip_mcdname {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
+.tooltip_title {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#tooltip_edrpercent {
+	font-size: 1.1em;
+}
+
+#tooltip_percent-r {
+	font-size: 1.0em;
+}
+
+#tooltip_percent-d {
+	font-size: 1.0em;
+}
+
+.legend {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+.legend span {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.legend #same_day_registration_0 { background-color: #d9d2e9; }
+.legend #same_day_registration_1 { background-color: #b4a7d6; }
+.legend #same_day_registration_2 { background-color: #8e7cc3; }
+.legend #same_day_registration_3 { background-color: #674ae7; }
+.legend #same_day_registration_4 { background-color: #351c75; }
+.legend #same_day_registration_5 { background-color: #20124d; }
+.legend #same_day_registration_6 { background-color: #777777; }
+
+.clear {
+	clear: both;
+}

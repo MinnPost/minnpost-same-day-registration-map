@@ -1,0 +1,31 @@
+grid({
+    "center": [
+        0,
+        0,
+        4
+    ],
+    "id": "same_day_registration_interaction",
+    "scheme": "tms",
+    "bounds": [
+        -101.217,
+        42.9966,
+        -86.0779,
+        49.5038
+    ],
+    "minzoom": 6,
+    "maxzoom": 12,
+    "legend": "",
+    "name": "Same day registration",
+    "description": "",
+    "version": "1.0.0",
+    "template": "{{#__location__}}{{/__location__}}{{#__teaser__}}<div id='tooltip_mcdname'><span id='tooltip_value_mcdname'>{{{MCDName}}}</span>, <span id='tooltip_value_precinct_n'>Precinct {{{PRECINCT_N}}}</span></div><div class='tooltip_title' id='tooltip_title_edr'>Same day registration</div><div id='tooltip_edrpercent'><span id='tooltip_value_edrpercent'>{{{EDRPercent}}}</span>%</div><div class='tooltip_title' id='tooltip_title_presidential'>2008 U.S. presidential results</div><div id='tooltip_percent-r'><span id='tooltip_value_percent-r'>{{{PRPercent}}}</span>% Republican</div><div id='tooltip_percent-d'><span id='tooltip_value_percent-d'>{{{PDPercent}}}</span>% Democrat</div><div class='tooltip_title' id='tooltip_title_congress'>2008 Minnesota congressional results</div><div id='tooltip_percent-r'><span id='tooltip_value_percent-r'>{{{MNRPercent}}}</span>% Republican</div><div id='tooltip_percent-d'><span id='tooltip_value_percent-d'>{{{MNDPercent}}}</span>% Democrat</div>{{/__teaser__}}{{#__full__}}{{/__full__}}",
+    "legend": "<div class=\"legend\" id=\"legend\"><span class=\"legend_color\" id=\"same_day_registration_5\"></span>40%+<br /><span class=\"legend_color\" id=\"same_day_registration_4\"></span>25 &ndash; 40%<br /><span class=\"legend_color\" id=\"same_day_registration_3\"></span>15 &ndash; 25%<br /><span class=\"legend_color\" id=\"same_day_registration_2\"></span>10 &ndash; 15%<br /><span class=\"legend_color\" id=\"same_day_registration_1\"></span>5 &ndash; 10%<br /><span class=\"legend_color\" id=\"same_day_registration_0\"></span>0 &ndash; 5%<br /><span class=\"legend_color\" id=\"same_day_registration_6\"></span>Data not available<br /></div>",
+    "grids": [
+		"../rendered_tiles/1.1/Same day registration - with interaction/{z}/{x}/{y}.grid.json"
+    ],
+    "tiles": [
+        "../rendered_tiles/1.1/Same day registration - with interaction/{z}/{x}/{y}.png"
+    ],
+    "download": "http://www.minnpost.com",
+    "webpage": "http://www.minnpost.com"
+});
