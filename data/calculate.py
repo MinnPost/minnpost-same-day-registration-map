@@ -28,7 +28,9 @@ for line in r:
     pre_registered_voted_percent = -1;
     edr_percent = -1;
     uspres_percent = -1;
-    if signatures != 0:
+    mnleg_percent_r = -1;
+    mnleg_percent_d = -1;
+    if tot_votes != 0:
         pre_registered_voted_percent = round( 100 * ((1.0 * pre_registered_voted) / tot_votes), 2)
         edr_percent = round(100 * ((1.0 * edr) / tot_votes), 2)
     if uspres_tot != 0:
